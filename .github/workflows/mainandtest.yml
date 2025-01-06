@@ -16,4 +16,4 @@ services:
     build: .
     volumes:
       - .:/code
-    command: sh -c "python -m unittest discover -s Tests -p 'testmock.py'"
+    command: sh -c "python -m unittest /home/arunvikram/Documents/mycrud/Tests/testmock.py"
